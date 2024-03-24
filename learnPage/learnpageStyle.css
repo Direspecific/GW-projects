@@ -21,6 +21,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
   margin: 0;
   padding: 0;
 }
@@ -122,22 +123,27 @@ body {
 
 /*Coming soon*/
 .comingContent {
-  width: 100%; /* Adjust as needed */
+  position: absolute;
+  top: 110%;
   overflow: hidden; /* Clear floats */
 }
 
+.row {
+  display: flex;
+}
 .rectangle {
-  width: calc(20% - 10px); /* 3 columns with 10px margin between them */
+  width: 300px; /* adjust width as needed */
   height: 150px; /* Adjust as needed */
   float: left; /* Float elements left */
-  margin-right: 20px; /* Adjust margin between rectangles */
-  margin-bottom: 20px; /* Adjust margin between rows */
+  margin: 10px; /* add spacing between rectangles */
   background-color: #f6f6f6; /* Adjust as needed */
   position: relative;
   border: 2px solid #d2d2d2; /* Add outline to the rectangle */
   display: flex;
   align-items: center;
   border-radius: 5%;
+  justify-content: center; /* center items horizontally */
+  align-items: center; /* center items vertically */
 } 
 
 
