@@ -113,12 +113,14 @@ body {
   padding: 10px;
   background-color: #f9f9f9;
   text-align: left;
+  color: #000000;
 }
 
 .description {
   padding: 10px;
   background-color: #f9f9f9;
   text-align: left;
+  color: #000000;
 }
 
 /*Coming soon*/
@@ -186,10 +188,6 @@ body {
 
 
 /*NAVBAR*/
-
-.content-item {
-  display: none;
-}
 
 #sidebar {
   background-color: #C3FBF7;
