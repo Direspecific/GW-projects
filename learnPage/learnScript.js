@@ -21,6 +21,10 @@ function closeNavbar() {
   sidebar.classList.remove('expanded');
 }
 
+document.getElementById("learnButton").addEventListener("click", function() {
+  window.location.href = "test.html";
+});
+
 // Click on overlay to close
 overlay.addEventListener('click', closeNavbar);
 
